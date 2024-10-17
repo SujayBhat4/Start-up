@@ -1,5 +1,11 @@
 /* General styling for the page */
-body {
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap'); 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: comfortaa;
+}
+.body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,7 +16,7 @@ body {
 
 /* Header section */
 #header {
-    background-color: #2E86C1;
+    background-color: #2d3e50;
     color: white;
     text-align: center;
     padding: 2rem;
@@ -35,7 +41,7 @@ body {
 
 #services h2 {
     text-align: center;
-    color: #2E86C1;
+    color: #2d3e50;
     margin-bottom: 1.5rem;
 }
 
@@ -44,7 +50,7 @@ body {
 }
 
 .service h3 {
-    color: #2E86C1;
+    color: #2d3e50;
 }
 
 .service p {
@@ -54,13 +60,13 @@ body {
 
 /* Why Choose section */
 #why-choose {
-    background-color: #e8f4f8;
+    background-color: #82a0aa;
     padding: 2rem;
     text-align: center;
 }
 
 #why-choose h2 {
-    color: #2E86C1;
+    color: #2d3e50;
 }
 
 #why-choose ul {
@@ -73,7 +79,7 @@ body {
     background-color: white;
     margin: 0.5rem 0;
     padding: 0.75rem;
-    border-left: 5px solid #2E86C1;
+    border-left: 8px solid #2d3e50;
 }
 
 /* Get Involved section */
@@ -82,17 +88,18 @@ body {
     margin: 2rem auto;
     padding: 1.5rem;
     text-align: center;
-    background-color: #e0f7fa;
+    background-color: #82a0aa;
+    border-radius: 10px;
 }
 
 #get-involved h2 {
-    color: #2E86C1;
+    color: #2d3e50;
     margin-bottom: 1rem;
 }
 
 /* Footer styling */
 #footer {
-    background-color: #2E86C1;
+    background-color: #2d3e50;
     color: white;
     text-align: center;
     padding: 1rem;
